@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: Wellfleet;
+    src: url("../fonts/Wellfleet-Regular.ttf");
+}
+
+body{
+    font-family: Wellfleet;
+    overflow: hidden;
+}
+
+
+/* navbar custom start */
+
+.logo-custom{
+    width: 40px;
+    height: 30px;
+}
+
+/* navbar custom end */
+
+/* home start */
+
+.home{
+    background-image:url("../images/background.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.my-photo{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    width: 250px;
+    height: 250px;
+}
+
+.element{
+    padding: 400px 0 0 550px;
+    color: #f5f5f5;
+    font-size: 30px;
+}
+.element-1{
+    color: #f5f5f5;
+    font-size: 30px;
+    margin: 0 0 0 400px;
+}
+
+/* home end */
+
+/*serves start */
+
+.service-box {
+    background: #fff;
+    border-bottom: 2px solid #f7f7f7;
+    padding: 40px 20px;
+}
+
+.service-box:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin-top: -20px;
+    box-shadow: #269abc 1px 1px 1px 1px;
+}
+
+.service-icon {
+    margin-bottom: 20px;
+}
+
+.service-desc h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.service-desc .divider-header {
+    margin-bottom: 30px;
+}
+
+
+/*serves end */
+
+/* contact me area start */
+
+.contact-custom{
+    background-color: #f5f5f5;
+}
+
+textarea{
+    resize: none;
+}
+
+/* contact me area end */
+
+/* footer start */
+
+.footer-bottom{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+
+.btn-custom{
+    margin: 0 0 0 520px;
+}
+
+/* footer end */
+
+
+.content {
+    display:none;
+}
+
+.loading {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 9999;
+}
+
+.loading-custom{
+
+    margin: 250px 0 0 500px;
+
+}
